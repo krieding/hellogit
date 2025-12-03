@@ -26,10 +26,10 @@
           <mxGeometry height="60" width="170" x="435" y="180" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务列表查询" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="300" as="geometry" />
+          <mxGeometry height="40" width="120" x="50" y="360" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务详情查询" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="410" as="geometry" />
+          <mxGeometry height="40" width="120" x="50" y="470" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M1k-BhY00FeUXCGBcMgc-8" value="">
           <mxGeometry relative="1" as="geometry" />
