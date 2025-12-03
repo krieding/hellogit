@@ -19,6 +19,9 @@
         <mxCell id="M1k-BhY00FeUXCGBcMgc-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="定时任务" vertex="1">
           <mxGeometry height="40" width="120" x="460" y="100" as="geometry" />
         </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-14" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="按材料解析任务生成时间排序，查询待解析excel文件，&lt;div&gt;30秒一次，每次查询5条，逐条任务处理&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="435" y="180" as="geometry" />
         </mxCell>
@@ -27,6 +30,49 @@
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务详情查询" vertex="1">
           <mxGeometry height="40" width="120" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M1k-BhY00FeUXCGBcMgc-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-6" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="解析excel文件&lt;div&gt;识别会议时间，议题，汇报人等&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-12" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M1k-BhY00FeUXCGBcMgc-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-21" connectable="0" parent="M1k-BhY00FeUXCGBcMgc-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0909" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-20" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M1k-BhY00FeUXCGBcMgc-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-22" connectable="0" parent="M1k-BhY00FeUXCGBcMgc-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2726" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="解析是否成功" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-11" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;rounded=1;" value="更新任务为解析失败" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-17" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-13" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="循环处理任务" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-18" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-16" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新任务为处理中" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-19" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;rounded=1;" value="根据解析后的信息生成word文档及页面预览用PDF文件" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
