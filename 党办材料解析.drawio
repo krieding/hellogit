@@ -39,8 +39,8 @@
         <mxCell id="M1k-BhY00FeUXCGBcMgc-14" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M1k-BhY00FeUXCGBcMgc-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="按材料解析任务生成时间排序，查询待解析excel文件，&lt;div&gt;30秒一次，每次查询5条，逐条任务处理&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="435" y="180" as="geometry" />
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;" value="按材料解析任务生成时间排序，查询待解析excel文件，&lt;div&gt;30秒一次，每次查询5条&lt;/div&gt;&lt;div&gt;解析处理任务效率较快，逐条任务处理&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="435" y="180" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务列表查询" vertex="1">
           <mxGeometry height="40" width="120" x="40" y="320" as="geometry" />
