@@ -4,11 +4,28 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-30" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pZFQueL5ycRMGgiydX4--0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="新建材料解析任务" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="140" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="140" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pZFQueL5ycRMGgiydX4--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-0">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-31" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pZFQueL5ycRMGgiydX4--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M1k-BhY00FeUXCGBcMgc-32" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pZFQueL5ycRMGgiydX4--0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="M1k-BhY00FeUXCGBcMgc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pZFQueL5ycRMGgiydX4--0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="材料解析任务表" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="220" as="geometry" />
@@ -26,10 +43,10 @@
           <mxGeometry height="60" width="170" x="435" y="180" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务列表查询" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="360" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="320" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" value="解析任务详情查询" vertex="1">
-          <mxGeometry height="40" width="120" x="50" y="470" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="440" as="geometry" />
         </mxCell>
         <mxCell id="M1k-BhY00FeUXCGBcMgc-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="M1k-BhY00FeUXCGBcMgc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M1k-BhY00FeUXCGBcMgc-8" value="">
           <mxGeometry relative="1" as="geometry" />
